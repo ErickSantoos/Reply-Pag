@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,wght@1,300;1,400&display=swap');
+
+@font-face {
+    font-family: 'droid';
+    src: url(fonte/IDroid.otf) format('opentype');
+}
+
+body {
+    background-color: #F2E9CE;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #48aa74,  #0b331d);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 40px;
+    font-size: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+
+#titulo {
+    color: white;
+}
+
+#titulo1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home {
+    color: #48aa74;
+    text-align: justify;
+    padding: 10px;
+}
+.home:hover {
+    background-color: #83E1AD;
+    padding: 15px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #85E2AF, #FFF2FF);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+ 
+a.hover {
+    background-color: aquamarine;
+}
+main {
+    margin: auto;
+    padding: 20px;
+    width: 1050px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
+}
+.title {
+    font-family: 'droid';
+    color: #1B7543;
+}
+
+#principal {
+    font-family: 'droid';
+    color: #0b331d;
+    font-size: 35px;
+}
+
+#final {
+    border-radius: 15px;
+    width: 1050px;
+    margin: auto;
+    background-color: #83E1AD;
+    text-align: justify;
+}
+
+#aprender {
+    background-color: #1B7543;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    color: #FFF2FF;
+}
+
+strong {
+    color: #1B7543
+}
+
+#dandroids {
+    width: 1050px;
+}
+
+#foto {
+    width: 1050px;
+}
+
+footer {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #1B7543;
+    color: #FFF2FF;
+    border-radius: 5px;
+}
+
